@@ -11,6 +11,6 @@ to run chat help when online use:
 to exit the chat:
   @exit
 
-  You are welcome to modify the cod eand do what you wana do.
+  You are welcome to modify the code and do what you wanna do.
 Best regards,
 GoWithAndy
