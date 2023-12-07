@@ -46,10 +46,10 @@ func main() {
 	var send frame
 
 	//set hostname of rabbitMQ service to connect to
-	var hostname string = "192.168.51.100"
+	var hostname string = "127.0.0.1"
 	var port string = "5672"
 	if len(os.Args) > 1 {
-		flag.StringVar(&hostname, "host", "192.168.51.100", "--host hostname")
+		flag.StringVar(&hostname, "host", "127.0.0.1", "--host hostname")
 		flag.StringVar(&port, "port", "5672", "--port 5672")
 		flag.Parse()
 	}
