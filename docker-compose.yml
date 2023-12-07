@@ -1,0 +1,9 @@
+version: '3'
+services:
+  your_service:
+    image: rabbitmq:latest
+    container_name: rbmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
